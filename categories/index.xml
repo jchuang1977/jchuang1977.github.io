@@ -6,8 +6,15 @@
     <description>Recent content in Categories on 竹北小黑</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 03 Oct 2024 11:53:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 19:45:47 +0800</lastBuildDate>
     <atom:link href="https://jchuang1977.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>心得</title>
+      <link>https://jchuang1977.github.io/categories/%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sun, 06 Oct 2024 19:45:47 +0800</pubDate>
+      <guid>https://jchuang1977.github.io/categories/%E5%BF%83%E5%BE%97/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Canva</title>
       <link>https://jchuang1977.github.io/categories/canva/</link>
@@ -20,13 +27,6 @@
       <link>https://jchuang1977.github.io/categories/%E6%A2%97%E5%9C%96/</link>
       <pubDate>Wed, 02 Oct 2024 21:10:47 +0800</pubDate>
       <guid>https://jchuang1977.github.io/categories/%E6%A2%97%E5%9C%96/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>心得</title>
-      <link>https://jchuang1977.github.io/categories/%E5%BF%83%E5%BE%97/</link>
-      <pubDate>Wed, 02 Oct 2024 17:57:47 +0800</pubDate>
-      <guid>https://jchuang1977.github.io/categories/%E5%BF%83%E5%BE%97/</guid>
       <description></description>
     </item>
   </channel>
