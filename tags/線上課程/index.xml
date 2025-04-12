@@ -6,8 +6,15 @@
     <description>Recent content in 線上課程 on 竹北小黑</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 20 Oct 2024 22:54:47 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Apr 2025 13:54:47 +0800</lastBuildDate>
     <atom:link href="https://jchuang1977.github.io/tags/%E7%B7%9A%E4%B8%8A%E8%AA%B2%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter 3.29 build 遊戲 程式心得</title>
+      <link>https://jchuang1977.github.io/blog/20250412/</link>
+      <pubDate>Sat, 12 Apr 2025 13:54:47 +0800</pubDate>
+      <guid>https://jchuang1977.github.io/blog/20250412/</guid>
+      <description>&lt;h3 id=&#34;udemy-flutter-遊戲試玩&#34;&gt;Udemy Flutter 遊戲試玩&lt;/h3&gt;&#xA;&lt;p&gt;最近在udemy上flutter課程, 到了中間有點無趣&#xA;就開始到github 抓一些現成的遊戲程式來玩玩&lt;/p&gt;&#xA;&lt;p&gt;試了&#xA;(&lt;a href=&#34;https://github.com/boyan01/flutter-tetris&#34;&gt;https://github.com/boyan01/flutter-tetris&lt;/a&gt; &amp;ldquo;俄羅斯方塊&amp;rdquo;)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hahow 個人課程推薦 『不會畫圖也能創作角色LINE動態貼圖』</title>
       <link>https://jchuang1977.github.io/blog/20241020_hahow/</link>
