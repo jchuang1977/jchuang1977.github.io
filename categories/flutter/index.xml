@@ -9,11 +9,18 @@
     <lastBuildDate>Sat, 12 Apr 2025 13:54:47 +0800</lastBuildDate>
     <atom:link href="https://jchuang1977.github.io/categories/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Flutter 3.29 build web 程式踩雷心得</title>
+      <link>https://jchuang1977.github.io/blog/20250412-2/</link>
+      <pubDate>Sat, 12 Apr 2025 13:54:47 +0800</pubDate>
+      <guid>https://jchuang1977.github.io/blog/20250412-2/</guid>
+      <description>&lt;h2 id=&#34;一切都是從切水果遊戲開始的&#34;&gt;一切都是從切水果遊戲開始的&lt;/h2&gt;&#xA;&lt;p&gt;從github 抓了一個切水果遊戲來build , 發現這是個 web 程式&#xA;&lt;a href=&#34;https://github.com/Flutter-Journey/Fruit-Cutting-Game&#34; title=&#34;切水果遊戲&#34;&gt;切水果遊戲&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;用下面指令跑在 chrome 是沒問題的&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Flutter 3.29 build 遊戲 程式心得</title>
       <link>https://jchuang1977.github.io/blog/20250412/</link>
       <pubDate>Sat, 12 Apr 2025 13:54:47 +0800</pubDate>
       <guid>https://jchuang1977.github.io/blog/20250412/</guid>
-      <description>&lt;h3 id=&#34;udemy-flutter-遊戲試玩&#34;&gt;Udemy Flutter 遊戲試玩&lt;/h3&gt;&#xA;&lt;p&gt;最近在udemy上flutter課程, 到了中間有點無趣&#xA;就開始到github 抓一些現成的遊戲程式來玩玩&lt;/p&gt;&#xA;&lt;p&gt;試了&#xA;(&lt;a href=&#34;https://github.com/boyan01/flutter-tetris&#34;&gt;https://github.com/boyan01/flutter-tetris&lt;/a&gt; &amp;ldquo;俄羅斯方塊&amp;rdquo;)&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;flutter-自己build-遊戲試玩&#34;&gt;Flutter 自己build 遊戲試玩&lt;/h3&gt;&#xA;&lt;p&gt;最近在udemy上flutter課程, 到了中間有點無趣&#xA;就開始到github 抓一些現成的遊戲程式來玩玩&lt;/p&gt;&#xA;&lt;p&gt;試了&#xA;[俄羅斯方塊] (&lt;a href=&#34;https://github.com/boyan01/flutter-tetris&#34;&gt;https://github.com/boyan01/flutter-tetris&lt;/a&gt; &amp;ldquo;俄羅斯方塊&amp;rdquo;)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -140,7 +140,7 @@
         <a href="/categories/flutter"
           class="text-primary">Flutter</a>
         
-        <h2>Flutter 3.29 build 遊戲 程式心得</h2>
+        <h2>Flutter 3.29 build web 程式踩雷心得</h2>
         <div class="mb-3 post-meta">
           <span>By jchuang1977</span>
           
@@ -149,19 +149,51 @@
           
         </div>
         
-        <img src="https://jchuang1977.github.io/images/gallery/tetris.png" class="img-fluid w-100 mb-4" alt="Flutter 3.29 build 遊戲 程式心得">
+        <img src="https://jchuang1977.github.io/images/gallery/image_newgame.png" class="img-fluid w-100 mb-4" alt="Flutter 3.29 build web 程式踩雷心得">
         
         <div class="content mb-5">
-          <h3 id="flutter-自己build-遊戲試玩">Flutter 自己build 遊戲試玩</h3>
-<p>最近在udemy上flutter課程, 到了中間有點無趣
-就開始到github 抓一些現成的遊戲程式來玩玩</p>
-<p>試了
-[俄羅斯方塊] (<a href="https://github.com/boyan01/flutter-tetris">https://github.com/boyan01/flutter-tetris</a> &ldquo;俄羅斯方塊&rdquo;)</p>
-<p>[2048] (<a href="https://github.com/angjelkom/flutter_2048">https://github.com/angjelkom/flutter_2048</a> &ldquo;2048&rdquo;)</p>
-<p>[拼圖程式] (<a href="https://github.com/xfans/flutter_jigsaw_puzzle">https://github.com/xfans/flutter_jigsaw_puzzle</a> &ldquo;拼圖程式&rdquo;)</p>
-<p>上面三個都可以成功執行</p>
-<p>但我最想玩的 flappy bird 跑起來卻怪怪的..小鳥和水管都不見了</p>
-<p><a href="https://github.com/AnishHazra/Flappy-Bird-Game" title="flappy bird">Flappy Bird</a></p>
+          <h2 id="一切都是從切水果遊戲開始的">一切都是從切水果遊戲開始的</h2>
+<p>從github 抓了一個切水果遊戲來build , 發現這是個 web 程式
+<a href="https://github.com/Flutter-Journey/Fruit-Cutting-Game" title="切水果遊戲">切水果遊戲</a></p>
+<p>用下面指令跑在 chrome 是沒問題的</p>
+<pre tabindex="0"><code>flutter run -d chrome
+</code></pre><!-- raw HTML omitted -->
+<p>但是一旦我要build成 web 程式 , 就是會跑不出來</p>
+<pre tabindex="0"><code>flutter build web
+</code></pre><p>google了一下, 是因為flutter 3.29 以上就內建不使用 canvaskit</p>
+<!-- raw HTML omitted -->
+<p>後來想改用 wasm</p>
+<pre tabindex="0"><code>flutter build web --wasm
+</code></pre><p>又會有找不到dart:html 套件的錯誤</p>
+<!-- raw HTML omitted -->
+<p>google找到幾個解法</p>
+<h5 id="下面都是沒有用的">下面都是沒有用的..</h5>
+<ul>
+<li>dart:html 換成 universal_html 套件</li>
+<li>改 index.html 的 flutter_bootstrap 的地方</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="後來問了-microsoft-copilot">後來問了 microsoft copilot</h3>
+<p>他回覆我要加一個  web.yaml ,裡面放下面的內容</p>
+<pre tabindex="0"><code>web:
+  renderer: canvaskit
+</code></pre><h3 id="看起來可以-但是為什麼首頁都是空白">看起來可以, 但是為什麼首頁都是空白</h3>
+<p><img src="../../images/gallery/file_not_found.png" alt="image"></p>
+<h3 id="原來要用-http-server-開啟才行">原來要用 http server 開啟才行</h3>
+<p>後來用 python -m http.server 開啟才成功</p>
+<pre tabindex="0"><code>python -m http.server
+</code></pre><p><img src="https://raw.githubusercontent.com/Flutter-Journey/Fruit-Cutting-Game/refs/heads/main/media/gif/Fruit-Cutting-Game.gif" alt="image"></p>
+<h3 id="把-web-丟上-netlify">把 web 丟上 netlify</h3>
+<p>google 有人說可以把 web 程式丟上 netlify</p>
+<!-- raw HTML omitted -->
+<h5 id="下面步驟其實是廢話">下面步驟其實是廢話</h5>
+<ol>
+<li>先把flutter專案下的 build/web 目錄內容都丟到你的 github</li>
+<li>到 netlify 新增 site , 選你的 github repo</li>
+<li>這樣就大功告成啦 , 因為 netlify 要付錢才有固定的 domain prefix
+先將就點用吧</li>
+</ol>
+<p><a href="https://harmonious-boba-d2f70a.netlify.app/" title="我的切水果遊戲">我第一支flutter web程式</a></p>
 <!-- raw HTML omitted -->
 
         </div>
